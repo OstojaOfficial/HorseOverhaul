@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " X ",
+    "Y Y"
+  ],
+  "key": {
+    "X": {
+      "item": "horseoverhaul:saddlebody"
+    },
+    "Y": {
+      "item": "horseoverhaul:stirrup"
+    }
+  },
+  "result": {
+    "item": "minecraft:saddle"
+  }
+}

@@ -7,7 +7,7 @@ public class Stirrup extends Item {
 
     public Stirrup() {
         super(new Item.Properties()
-                .maxStackSize(1)
+                .maxStackSize(4)
                 .group(HorseOverhaul.setup.itemGroup));
         setRegistryName("stirrup");
     }
