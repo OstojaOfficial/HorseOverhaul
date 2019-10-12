@@ -6,4 +6,7 @@ public class ModItems {
 
     @ObjectHolder("horseoverhaul:saddlebody")
     public static SaddleBody SADDLEBODY;
+
+    @ObjectHolder("horseoverhaul:stirrup")
+    public static Stirrup STIRRUP;
 }

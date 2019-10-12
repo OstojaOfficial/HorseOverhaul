@@ -4,6 +4,7 @@ import com.zadrakos.horseoverhaul.blocks.FirstBlock;
 import com.zadrakos.horseoverhaul.blocks.ModBlocks;
 import com.zadrakos.horseoverhaul.items.SaddleBody;
 import com.zadrakos.horseoverhaul.items.ModItems;
+import com.zadrakos.horseoverhaul.items.Stirrup;
 import com.zadrakos.horseoverhaul.setup.ClientProxy;
 import com.zadrakos.horseoverhaul.setup.IProxy;
 import com.zadrakos.horseoverhaul.setup.ModSetup;
@@ -59,6 +60,7 @@ public class HorseOverhaul {
                     .group(setup.itemGroup);
             event.getRegistry().register(new BlockItem(ModBlocks.FIRSTBLOCK, properties).setRegistryName("firstblock"));
             event.getRegistry().register(new SaddleBody());
+            event.getRegistry().register(new Stirrup());
         }
     }
 }
